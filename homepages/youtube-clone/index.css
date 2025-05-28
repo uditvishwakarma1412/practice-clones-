@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color:black; */
+    height: 100vh;
+    width: 100vw;
+}
+.headerdiv{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: #0f0f0f;
+    position: fixed;
+}
+.menubariconimg{
+    margin: 0;
+    padding: 7px;
+    border-radius: 20px;
+    /* background-color: 0f0f0f; */
+    filter: invert(1);
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-left: 18px;
+    margin-top: 10px;
+    position: fixed;
+}
+.menubariconimg:hover{
+    background-color: #d9d9d9;
+}
+
+.youtubeiconimg{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 64px;
+}
+.searh-tab{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 600px;
+    height: 41px;
+    margin-left: 162px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: 1px solid #2c2c2c;
+    border-radius: 20px;
+    position: fixed;
+    margin-top: 9px;
+    background-color: #121212;
+    cursor:text;
+    color: white;
+}
+/* .searh-tabL:focus{
+    border:1px aqua;
+} */
+.micimage{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 41px;
+    border-radius: 20px;
+    border: none;
+    background-color: #272727;
+    position: fixed;
+    margin-top: 9px;
+    margin-left: 775px;
+}
+.micimage:hover{
+    background-color: #3c3c3c;
+}
+.micimagepng{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    filter: invert(1);
+}
+.plusimgpng{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    /* position: fixed; */
+    width: 20px;
+    height: 20px;
+    margin-left: -50px;
+    
+}
+.create-btn{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: fixed;
+    width: 95px;
+    height: 36px;
+    background-color: #dbdbdb;
+    border: none;
+    margin-top: 11px;
+    filter: invert(1);
+    margin-left: 925px;
+    border-radius: 20px;
+}
+.create-btn:hover{
+    background-color: #c8c8c8;
+}
+.createtext{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    font-size: 13.4px;
+    font-weight:bold;
+    margin-top: -17;
+    margin-left: 39px;
+}
+.bell-btn{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+    border: none;
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 1030px;
+    filter: invert(1);
+}
+.bell-btn:hover{
+    background-color: #d4d3d3;
+}
+.profile-btn{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border: none;
+    position: fixed;
+    margin-left: 1085px;
+    filter: invert(1);
+    background-color: #dddcdc;
+    margin-top: 12px;
+    border-radius: 20px;
+}
+.profilepng{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+}
+.profile-btn:hover{
+    background-color: #d7d7d7;
+}
+.searchicon{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    filter: invert(1);
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    margin-top: 9px;
+    margin-left: 701px;
+    background-color: #d7d7d7;
+    padding: 9px;
+    border-radius: 20px;
+    padding-right: 15px;
+    padding-left: 22px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.asidediv{
+    margin: 0;
+    padding: 0;
+    /* position: ; */
+    background-color:#0f0f0f;
+    width: 90px;
+    height: 100vh;
+}
+.homebtn{
+    margin: 0;
+    padding: 0;
+    width: 62px;
+    height: 70px;
+    margin-top: 60px;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    border: none;
+    margin-left: 4px;
+}
+.homebtn:hover{
+    background-color: #2e2e2e;
+}
+.homepng{
+    filter: invert(1);
+    width: 25px;
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+}
+.hometext{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 10px;
+    margin-top: 6px;
+}
+.shortsbtn{
+    margin-top: 4px;
+}
+.Subscriptionsbtn{
+    margin-top: 4px;
+}
+.accountbtn{
+    margin-top: 4px;
+}
+
+.secondheader{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 47px;
+    background-color: #0f0f0f;
+    position: fixed;
+    top: 0;
+    margin-top: 60px;
+    margin-left: 90px;
+    display: flex;
+}
+.btns{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: 30px;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    border-radius: 9px;
+    border: none;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+.btns:hover{
+    cursor: pointer;
+}
+.btnname{
+    margin: 0;
+    padding: 0;
+    margin-top: -2px;
+    color: black;
+    font-weight: 400;
+}
+.btns2{
+    background-color: #272727;
+    color: white;
+}
+.btns2:hover{
+    background-color: #333333;
+}
+.btnname2{
+    color: white;
+    font-weight: bold;
+}
+.maindiv{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0f0f0f;
+    position: fixed;
+    top: 0;
+    margin-left: 90px;
+    margin-top: 107px;
+    display: flex;
+}
+.videodivs{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 220px;
+    background-color: #272727;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.thumbnailsimg{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 220px;
+    background-color: #272727;
+    border-radius: 10px;
+}
+.seconddivforchannel{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 100px;
+    background-color: #0f0f0f;
+    /* margin-left: 10px; */
+    /* margin-top: -170px; */
+    display: flex;
+    flex-wrap:nowrap
+}
+.accountpng1{
+    margin: 0;
+    padding: 0;
+    width: 38px;
+    height: 38px;
+    filter: invert(1);
+    margin-top: 8px;
+    cursor: pointer;
+}
+.videotext{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 440;
+    margin-top: 10px;
+    margin-left: 7px;
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
